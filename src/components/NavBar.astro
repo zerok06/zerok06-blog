@@ -1,0 +1,86 @@
+---
+import WrapperLayout from './WrapperLayout.astro'
+---
+
+<nav class="border-b border-[#e5e7eb] bg-white/10 backdrop-blur-sm">
+  <WrapperLayout>
+    <div class="flex justify-between h-20 items-center">
+      <a href="/">LOGO</a>
+      <div class="flex gap-1">
+        <!-- Publicaciones -->
+        <a
+          href="#"
+          class="px-5 text-lg text-black/70 py-2 rounded-2xl hover:border-[#e5e7eb] border border-transparent transition duration-500 flex gap-2 items-center hover:bg-white/10"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-rss"
+            ><path d="M4 11a9 9 0 0 1 9 9"></path><path
+              d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"
+            ></circle></svg
+          >
+          Posts
+        </a>
+        <!-- Guias -->
+        <a
+          class="px-5 text-lg text-black/70 py-2 flex flex-col leading-none items-center select-none"
+        >
+          <div class="flex gap-2 items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-milestone"
+              ><path d="M12 13v8"></path><path d="M12 3v3"></path><path
+                d="M4 6a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h13a2 2 0 0 0 1.152-.365l3.424-2.317a1 1 0 0 0 0-1.635l-3.424-2.318A2 2 0 0 0 17 6z"
+              ></path></svg
+            >
+            Guias
+          </div>
+          <p class="text-xs leading-none">Proximamente</p>
+        </a>
+        <!-- Videos -->
+        <a
+          class="px-5 text-lg text-black/70 py-2 flex flex-col leading-none items-center select-none"
+        >
+          <div class="flex gap-2 items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-video"
+              ><path
+                d="m16 13 5.223 3.482a.5.5 0 0 0 .777-.416V7.87a.5.5 0 0 0-.752-.432L16 10.5"
+              ></path><rect x="2" y="6" width="14" height="12" rx="2"
+              ></rect></svg
+            >
+            Cursos
+          </div>
+          <p class="text-xs leading-none">Proximamente</p>
+        </a>
+        <!-- Publicaciones -->
+      </div>
+      <div></div>
+    </div>
+  </WrapperLayout>
+</nav>
